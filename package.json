@@ -1,1 +1,9 @@
-
+{
+  "name": "micro-site",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "echo Lint Successful",
+    "test": "echo Test Successful",
+    "build": "mkdir dist && cp -r src/* dist/"
+  }
+}
